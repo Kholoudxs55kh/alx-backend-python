@@ -2,9 +2,10 @@
 """
 type annotated task 7
 """
+import typing
 
 
-def sum_mixed_list(mxd_lst: [int, float]) -> float:
+def sum_mixed_list(mxd_lst: typing.List[typing.Union[int, float]]) -> float:
     """
     takes a list of ints and floats and return their float sum
     """

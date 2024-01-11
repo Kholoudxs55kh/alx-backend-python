@@ -2,9 +2,10 @@
 """
 type annotated task 6
 """
+import typing
 
 
-def sum_list(input_list: [float]) -> float:
+def sum_list(input_list: typing.List[float]) -> float:
     """
     takes a list of floats and return their sum
     """
