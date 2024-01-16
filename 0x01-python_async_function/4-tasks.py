@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
-
+"""
+task 4
+"""
 
 import typing
 import asyncio
@@ -21,6 +23,6 @@ async def task_wait_n(n: int, max_delay: int) -> typing.List[float]:
 
     return output
 
-n = 5
-max_delay = 6
-print(asyncio.run(task_wait_n(n, max_delay)))
+# n = 5
+# max_delay = 6
+# print(asyncio.run(task_wait_n(n, max_delay)))
